@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09098BF4DCE71EA7CEDD031D /* Pods_AlamofireCustom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D57B3D4B537C29C5B8F11D2 /* Pods_AlamofireCustom.framework */; };
 		F24538581E248F430029FEAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24538571E248F430029FEAD /* AppDelegate.swift */; };
 		F245385A1E248F430029FEAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24538591E248F430029FEAD /* ViewController.swift */; };
 		F245385D1E248F430029FEAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F245385B1E248F430029FEAD /* Main.storyboard */; };
 		F245385F1E248F430029FEAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F245385E1E248F430029FEAD /* Assets.xcassets */; };
 		F24538621E248F430029FEAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24538601E248F430029FEAD /* LaunchScreen.storyboard */; };
+		F245386A1E2495640029FEAD /* SignInViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24538691E2495640029FEAD /* SignInViewControllerViewController.swift */; };
+		F245386D1E2496C60029FEAD /* NSDictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F245386C1E2496C60029FEAD /* NSDictionary+Extension.swift */; };
+		F24538751E2499380029FEAD /* WFUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = F24538741E2499380029FEAD /* WFUserDefaults.m */; };
+		F24538791E24B0DF0029FEAD /* QuyAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24538781E24B0DF0029FEAD /* QuyAlamofire.swift */; };
+		F245387C1E24BE900029FEAD /* WFAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F245387B1E24BE900029FEAD /* WFAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D57B3D4B537C29C5B8F11D2 /* Pods_AlamofireCustom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireCustom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		904C34FDE022AF7ECFDE8560 /* Pods-AlamofireCustom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireCustom.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireCustom/Pods-AlamofireCustom.release.xcconfig"; sourceTree = "<group>"; };
+		97E5294FABD19AFA5B33DEBE /* Pods-AlamofireCustom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireCustom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireCustom/Pods-AlamofireCustom.debug.xcconfig"; sourceTree = "<group>"; };
 		F24538541E248F430029FEAD /* AlamofireCustom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireCustom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24538571E248F430029FEAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F24538591E248F430029FEAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,14 @@
 		F245385E1E248F430029FEAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F24538611E248F430029FEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F24538631E248F430029FEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24538691E2495640029FEAD /* SignInViewControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewControllerViewController.swift; sourceTree = "<group>"; };
+		F245386C1E2496C60029FEAD /* NSDictionary+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+Extension.swift"; sourceTree = "<group>"; };
+		F24538731E2499380029FEAD /* WFUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFUserDefaults.h; sourceTree = "<group>"; };
+		F24538741E2499380029FEAD /* WFUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFUserDefaults.m; sourceTree = "<group>"; };
+		F24538761E24994B0029FEAD /* AlamofireCustom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlamofireCustom-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		F24538781E24B0DF0029FEAD /* QuyAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuyAlamofire.swift; sourceTree = "<group>"; };
+		F245387A1E24BE900029FEAD /* WFAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFAPI.h; sourceTree = "<group>"; };
+		F245387B1E24BE900029FEAD /* WFAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09098BF4DCE71EA7CEDD031D /* Pods_AlamofireCustom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA0D8F6B40468A015791CA62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97E5294FABD19AFA5B33DEBE /* Pods-AlamofireCustom.debug.xcconfig */,
+				904C34FDE022AF7ECFDE8560 /* Pods-AlamofireCustom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2364CCC2758D26D43300219 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D57B3D4B537C29C5B8F11D2 /* Pods_AlamofireCustom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F245384B1E248F430029FEAD = {
 			isa = PBXGroup;
 			children = (
 				F24538561E248F430029FEAD /* AlamofireCustom */,
 				F24538551E248F430029FEAD /* Products */,
+				BA0D8F6B40468A015791CA62 /* Pods */,
+				E2364CCC2758D26D43300219 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +91,38 @@
 		F24538561E248F430029FEAD /* AlamofireCustom */ = {
 			isa = PBXGroup;
 			children = (
+				F24538771E24B0A30029FEAD /* Alamofire+custom */,
+				F24538761E24994B0029FEAD /* AlamofireCustom-Bridging-Header.h */,
+				F245386B1E24968F0029FEAD /* Extension */,
 				F24538571E248F430029FEAD /* AppDelegate.swift */,
 				F24538591E248F430029FEAD /* ViewController.swift */,
 				F245385B1E248F430029FEAD /* Main.storyboard */,
 				F245385E1E248F430029FEAD /* Assets.xcassets */,
 				F24538601E248F430029FEAD /* LaunchScreen.storyboard */,
 				F24538631E248F430029FEAD /* Info.plist */,
+				F24538691E2495640029FEAD /* SignInViewControllerViewController.swift */,
 			);
 			path = AlamofireCustom;
+			sourceTree = "<group>";
+		};
+		F245386B1E24968F0029FEAD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F24538731E2499380029FEAD /* WFUserDefaults.h */,
+				F24538741E2499380029FEAD /* WFUserDefaults.m */,
+				F245386C1E2496C60029FEAD /* NSDictionary+Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		F24538771E24B0A30029FEAD /* Alamofire+custom */ = {
+			isa = PBXGroup;
+			children = (
+				F245387A1E24BE900029FEAD /* WFAPI.h */,
+				F245387B1E24BE900029FEAD /* WFAPI.m */,
+				F24538781E24B0DF0029FEAD /* QuyAlamofire.swift */,
+			);
+			name = "Alamofire+custom";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F24538661E248F430029FEAD /* Build configuration list for PBXNativeTarget "AlamofireCustom" */;
 			buildPhases = (
+				E3E9A51805F431AE41BECF61 /* [CP] Check Pods Manifest.lock */,
 				F24538501E248F430029FEAD /* Sources */,
 				F24538511E248F430029FEAD /* Frameworks */,
 				F24538521E248F430029FEAD /* Resources */,
+				AB1844EA33671860D8D04266 /* [CP] Embed Pods Frameworks */,
+				AF79783CEA6EECF5E7FF20C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +160,7 @@
 				TargetAttributes = {
 					F24538531E248F430029FEAD = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,13 +196,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AB1844EA33671860D8D04266 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlamofireCustom/Pods-AlamofireCustom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF79783CEA6EECF5E7FF20C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlamofireCustom/Pods-AlamofireCustom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3E9A51805F431AE41BECF61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F24538501E248F430029FEAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F245385A1E248F430029FEAD /* ViewController.swift in Sources */,
+				F245387C1E24BE900029FEAD /* WFAPI.m in Sources */,
+				F24538751E2499380029FEAD /* WFUserDefaults.m in Sources */,
 				F24538581E248F430029FEAD /* AppDelegate.swift in Sources */,
+				F245386D1E2496C60029FEAD /* NSDictionary+Extension.swift in Sources */,
+				F24538791E24B0DF0029FEAD /* QuyAlamofire.swift in Sources */,
+				F245386A1E2495640029FEAD /* SignInViewControllerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,24 +376,31 @@
 		};
 		F24538671E248F430029FEAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E5294FABD19AFA5B33DEBE /* Pods-AlamofireCustom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AlamofireCustom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quy.com.AlamofireCustom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/quy/Desktop/AlamofireCustom/AlamofireCustom-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F24538681E248F430029FEAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904C34FDE022AF7ECFDE8560 /* Pods-AlamofireCustom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AlamofireCustom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quy.com.AlamofireCustom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/quy/Desktop/AlamofireCustom/AlamofireCustom-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +424,7 @@
 				F24538681E248F430029FEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
