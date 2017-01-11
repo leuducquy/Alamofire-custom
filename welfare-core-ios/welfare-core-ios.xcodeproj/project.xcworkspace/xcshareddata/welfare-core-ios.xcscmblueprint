@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "141fd181-b149-4d22-9fad-59075b876b23++354",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "141fd181-b149-4d22-9fad-59075b876b23++354" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "141fd181-b149-4d22-9fad-59075b876b23++354" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CEE9003C-2419-4E8A-99E4-4C0D10FF5CCC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "141fd181-b149-4d22-9fad-59075b876b23++354" : "welfare\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "welfare-core-ios",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "welfare-core-ios\/welfare-core-ios\/welfare-core-ios.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/lab.trente.asia\/chiase",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "141fd181-b149-4d22-9fad-59075b876b23++354"
+    }
+  ]
+}

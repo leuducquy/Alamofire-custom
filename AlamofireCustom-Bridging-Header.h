@@ -8,6 +8,7 @@
 
 #ifndef AlamofireCustom_Bridging_Header_h
 #define AlamofireCustom_Bridging_Header_h
-#import "WFUserDefaults.h"
-#import "WFAPI.h"
+
+
+#import "welfare-core-ios/welfare_core_ios.h"
 #endif /* AlamofireCustom_Bridging_Header_h */

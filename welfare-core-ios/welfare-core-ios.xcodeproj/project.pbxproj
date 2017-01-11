@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13E3C9071DC1D5A80019256A /* CIDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E3C9061DC1D5A80019256A /* CIDateUtil.m */; };
+		13E3C90A1DC1D5CE0019256A /* CIFormatUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E3C9091DC1D5CE0019256A /* CIFormatUtil.m */; };
+		13E3C90B1DC1DAF20019256A /* CIDateUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13E3C9051DC1D5A80019256A /* CIDateUtil.h */; };
+		13E3C90C1DC1DAF70019256A /* CIFormatUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13E3C9081DC1D5CE0019256A /* CIFormatUtil.h */; };
+		1B4D9BDF1D2CFB7C003056BE /* WFAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D9BDE1D2CFB7C003056BE /* WFAPI.m */; };
+		1B4D9BE21D2CFB8A003056BE /* WFConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D9BE11D2CFB8A003056BE /* WFConstants.m */; };
+		1B4D9BF21D2CFC6E003056BE /* WFAPI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B4D9BDD1D2CFB7C003056BE /* WFAPI.h */; };
+		1B4D9BF31D2CFC72003056BE /* WFConstants.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B4D9BE01D2CFB8A003056BE /* WFConstants.h */; };
+		1B4D9BF51D2CFC79003056BE /* TrenteLog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B4D9BD81D2CFB3B003056BE /* TrenteLog.h */; };
+		1B4D9BFB1D2CFE44003056BE /* WFPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D9BFA1D2CFE44003056BE /* WFPickerView.m */; };
+		1B4D9BFC1D2CFE83003056BE /* WFPickerView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B4D9BF91D2CFE44003056BE /* WFPickerView.h */; };
+		1B729E651D589A1D0071859A /* WFRoundCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B729E641D589A1D0071859A /* WFRoundCornersView.m */; };
+		1B729E661D589A610071859A /* WFRoundCornersView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B729E631D589A1D0071859A /* WFRoundCornersView.h */; };
+		1BBA1E8F1D5041BA007EA7C0 /* UIImageView+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA1E8E1D5041BA007EA7C0 /* UIImageView+Categories.m */; };
+		1BBA1E901D50421D007EA7C0 /* UIImageView+Categories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BBA1E8D1D5041BA007EA7C0 /* UIImageView+Categories.h */; };
+		5B0260511D2C9E36001FFBA5 /* welfare_core_ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B0260501D2C9E36001FFBA5 /* welfare_core_ios.h */; };
+		5B0260531D2C9E36001FFBA5 /* welfare_core_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0260521D2C9E36001FFBA5 /* welfare_core_ios.m */; };
+		5B0263571D2CAE8D001FFBA5 /* NSDictionary+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0263411D2CAE8D001FFBA5 /* NSDictionary+Categories.m */; };
+		5B0263581D2CAE8D001FFBA5 /* NSString+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0263431D2CAE8D001FFBA5 /* NSString+Categories.m */; };
+		5B0263591D2CAE8D001FFBA5 /* UIColor+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0263451D2CAE8D001FFBA5 /* UIColor+Categories.m */; };
+		5B02635A1D2CAE8D001FFBA5 /* UIImage+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0263471D2CAE8D001FFBA5 /* UIImage+Categories.m */; };
+		5B02635B1D2CAE8D001FFBA5 /* UILabel+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0263491D2CAE8D001FFBA5 /* UILabel+Categories.m */; };
+		5B02635C1D2CAE8D001FFBA5 /* UIView+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B02634B1D2CAE8D001FFBA5 /* UIView+Categories.m */; };
+		5B02635D1D2CAE8D001FFBA5 /* CCKeyboardHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B02634E1D2CAE8D001FFBA5 /* CCKeyboardHandler.m */; };
+		5B02635E1D2CAE8D001FFBA5 /* LocalizedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0263511D2CAE8D001FFBA5 /* LocalizedButton.m */; };
+		5B02635F1D2CAE8D001FFBA5 /* LocalizedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0263531D2CAE8D001FFBA5 /* LocalizedLabel.m */; };
+		5B0263621D2CB3EE001FFBA5 /* NSDate+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0263611D2CB3EE001FFBA5 /* NSDate+Categories.m */; };
+		5B0263711D2CBD40001FFBA5 /* NSDictionary+Categories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B0263401D2CAE8D001FFBA5 /* NSDictionary+Categories.h */; };
+		5B0263721D2CBD40001FFBA5 /* NSString+Categories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B0263421D2CAE8D001FFBA5 /* NSString+Categories.h */; };
+		5B0263731D2CBD40001FFBA5 /* UIColor+Categories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B0263441D2CAE8D001FFBA5 /* UIColor+Categories.h */; };
+		5B0263741D2CBD40001FFBA5 /* UIImage+Categories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B0263461D2CAE8D001FFBA5 /* UIImage+Categories.h */; };
+		5B0263751D2CBD40001FFBA5 /* UILabel+Categories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B0263481D2CAE8D001FFBA5 /* UILabel+Categories.h */; };
+		5B0263761D2CBD40001FFBA5 /* UIView+Categories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B02634A1D2CAE8D001FFBA5 /* UIView+Categories.h */; };
+		5B0263771D2CBD40001FFBA5 /* NSDate+Categories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B0263601D2CB3EE001FFBA5 /* NSDate+Categories.h */; };
+		5B0263781D2CBD40001FFBA5 /* CCKeyboardHandler.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B02634D1D2CAE8D001FFBA5 /* CCKeyboardHandler.h */; };
+		5B0263791D2CBD40001FFBA5 /* LocalizedButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B0263501D2CAE8D001FFBA5 /* LocalizedButton.h */; };
+		5B02637A1D2CBD40001FFBA5 /* LocalizedLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B0263521D2CAE8D001FFBA5 /* LocalizedLabel.h */; };
+		5B44E5EA1D4202DE009524FA /* WFSocketPackageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B44E5E91D4202DE009524FA /* WFSocketPackageModel.m */; };
+		5B44E5EE1D420565009524FA /* WFSocketPackageModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B44E5E81D4202DE009524FA /* WFSocketPackageModel.h */; };
+		5B44E5F41D420B92009524FA /* NSObject+ConvertToJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B44E5F31D420B92009524FA /* NSObject+ConvertToJson.m */; };
+		5B44E5F51D420BD0009524FA /* NSObject+ConvertToJson.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B44E5F21D420B92009524FA /* NSObject+ConvertToJson.h */; };
+		5B52692D1DDAA1290020C3A0 /* UIButton+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52692C1DDAA1290020C3A0 /* UIButton+Categories.m */; };
+		5B52692E1DDAA23D0020C3A0 /* UIButton+Categories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B52692B1DDAA1290020C3A0 /* UIButton+Categories.h */; };
+		5B5298B91E150842004C07E3 /* NSNumber+Catergories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F28F0F5C1DE8372A00E0C4AD /* NSNumber+Catergories.h */; };
+		5B7AB14E1D3CCBCD00D7E8D2 /* WFAttachmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7AB14D1D3CCBCD00D7E8D2 /* WFAttachmentModel.m */; };
+		5B7AB14F1D3CCC6A00D7E8D2 /* WFAttachmentModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B7AB14C1D3CCBCD00D7E8D2 /* WFAttachmentModel.h */; };
+		5B95FD711D33862200C3EE07 /* WFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B95FD701D33862200C3EE07 /* WFTextField.m */; };
+		5B95FD7C1D33A50F00C3EE07 /* WFCompanyUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B95FD7B1D33A50F00C3EE07 /* WFCompanyUserModel.m */; };
+		5B95FD7F1D33A65200C3EE07 /* WFCompanyUserModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B95FD7A1D33A50F00C3EE07 /* WFCompanyUserModel.h */; };
+		5BA8262D1DE8165A002AF8B3 /* WFObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8262C1DE8165A002AF8B3 /* WFObjectModel.m */; };
+		5BA8262E1DE816E7002AF8B3 /* WFObjectModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5BA8262B1DE8165A002AF8B3 /* WFObjectModel.h */; };
+		5BA8263D1DE83452002AF8B3 /* WFDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8263C1DE83452002AF8B3 /* WFDatePickerView.m */; };
+		5BA8263E1DE83526002AF8B3 /* WFDatePickerView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5BA8263B1DE83452002AF8B3 /* WFDatePickerView.h */; };
+		5BC02BA31DE42FFA00E7DCFD /* UIFont+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC02BA21DE42FFA00E7DCFD /* UIFont+Categories.m */; };
+		5BC02BA41DE4308100E7DCFD /* UIFont+Categories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5BC02BA11DE42FFA00E7DCFD /* UIFont+Categories.h */; };
+		5BC1D0161D34854A00A96588 /* WFErrorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1D0151D34854A00A96588 /* WFErrorLabel.m */; };
+		5BC1D01B1D348A1A00A96588 /* WFTextField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B95FD6F1D33862200C3EE07 /* WFTextField.h */; };
+		5BC1D01C1D348A1A00A96588 /* WFTextView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5BFC33771D2E68650072AE54 /* WFTextView.h */; };
+		5BC1D01D1D348A1A00A96588 /* WFErrorLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5BC1D0141D34854A00A96588 /* WFErrorLabel.h */; };
+		5BC1D0361D34D90F00A96588 /* WFCompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1D0331D34D90F00A96588 /* WFCompanyModel.m */; };
+		5BC1D0371D34D90F00A96588 /* WFCompanyDeptModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1D0351D34D90F00A96588 /* WFCompanyDeptModel.m */; };
+		5BC1D0381D34DA0A00A96588 /* WFCompanyModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5BC1D0321D34D90F00A96588 /* WFCompanyModel.h */; };
+		5BC1D0391D34DA0A00A96588 /* WFCompanyDeptModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5BC1D0341D34D90F00A96588 /* WFCompanyDeptModel.h */; };
+		5BFC33491D2DEC630072AE54 /* WFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC33481D2DEC630072AE54 /* WFLabel.m */; };
+		5BFC334C1D2DEC750072AE54 /* WFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC334B1D2DEC750072AE54 /* WFButton.m */; };
+		5BFC33681D2E49FD0072AE54 /* WFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC33671D2E49FD0072AE54 /* WFViewController.m */; };
+		5BFC336D1D2E557C0072AE54 /* NSMutableDictionary+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC336C1D2E557C0072AE54 /* NSMutableDictionary+Categories.m */; };
+		5BFC336F1D2E611D0072AE54 /* NSMutableDictionary+Categories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5BFC336B1D2E557C0072AE54 /* NSMutableDictionary+Categories.h */; };
+		5BFC33701D2E61300072AE54 /* WFViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5BFC33661D2E49FD0072AE54 /* WFViewController.h */; };
+		5BFC33711D2E61390072AE54 /* WFLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5BFC33471D2DEC630072AE54 /* WFLabel.h */; };
+		5BFC33721D2E61390072AE54 /* WFButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5BFC334A1D2DEC750072AE54 /* WFButton.h */; };
+		5BFC33751D2E61C70072AE54 /* WFUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC33741D2E61C70072AE54 /* WFUserDefaults.m */; };
+		5BFC33761D2E623F0072AE54 /* WFUserDefaults.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5BFC33731D2E61C70072AE54 /* WFUserDefaults.h */; };
+		5BFC33791D2E68650072AE54 /* WFTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC33781D2E68650072AE54 /* WFTextView.m */; };
+		F28F0F5E1DE8372A00E0C4AD /* NSNumber+Catergories.m in Sources */ = {isa = PBXBuildFile; fileRef = F28F0F5D1DE8372A00E0C4AD /* NSNumber+Catergories.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B02604B1D2C9E36001FFBA5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5B5298B91E150842004C07E3 /* NSNumber+Catergories.h in CopyFiles */,
+				5BA8263E1DE83526002AF8B3 /* WFDatePickerView.h in CopyFiles */,
+				5BA8262E1DE816E7002AF8B3 /* WFObjectModel.h in CopyFiles */,
+				5BC02BA41DE4308100E7DCFD /* UIFont+Categories.h in CopyFiles */,
+				5B52692E1DDAA23D0020C3A0 /* UIButton+Categories.h in CopyFiles */,
+				13E3C90C1DC1DAF70019256A /* CIFormatUtil.h in CopyFiles */,
+				13E3C90B1DC1DAF20019256A /* CIDateUtil.h in CopyFiles */,
+				1B729E661D589A610071859A /* WFRoundCornersView.h in CopyFiles */,
+				1BBA1E901D50421D007EA7C0 /* UIImageView+Categories.h in CopyFiles */,
+				5B44E5F51D420BD0009524FA /* NSObject+ConvertToJson.h in CopyFiles */,
+				5B44E5EE1D420565009524FA /* WFSocketPackageModel.h in CopyFiles */,
+				5B7AB14F1D3CCC6A00D7E8D2 /* WFAttachmentModel.h in CopyFiles */,
+				5BC1D0381D34DA0A00A96588 /* WFCompanyModel.h in CopyFiles */,
+				5BC1D0391D34DA0A00A96588 /* WFCompanyDeptModel.h in CopyFiles */,
+				5BC1D01B1D348A1A00A96588 /* WFTextField.h in CopyFiles */,
+				5BC1D01C1D348A1A00A96588 /* WFTextView.h in CopyFiles */,
+				5BC1D01D1D348A1A00A96588 /* WFErrorLabel.h in CopyFiles */,
+				5B95FD7F1D33A65200C3EE07 /* WFCompanyUserModel.h in CopyFiles */,
+				5BFC33761D2E623F0072AE54 /* WFUserDefaults.h in CopyFiles */,
+				5BFC33711D2E61390072AE54 /* WFLabel.h in CopyFiles */,
+				5BFC33721D2E61390072AE54 /* WFButton.h in CopyFiles */,
+				5BFC33701D2E61300072AE54 /* WFViewController.h in CopyFiles */,
+				5BFC336F1D2E611D0072AE54 /* NSMutableDictionary+Categories.h in CopyFiles */,
+				1B4D9BFC1D2CFE83003056BE /* WFPickerView.h in CopyFiles */,
+				1B4D9BF51D2CFC79003056BE /* TrenteLog.h in CopyFiles */,
+				1B4D9BF31D2CFC72003056BE /* WFConstants.h in CopyFiles */,
+				1B4D9BF21D2CFC6E003056BE /* WFAPI.h in CopyFiles */,
+				5B0263711D2CBD40001FFBA5 /* NSDictionary+Categories.h in CopyFiles */,
+				5B0263721D2CBD40001FFBA5 /* NSString+Categories.h in CopyFiles */,
+				5B0263731D2CBD40001FFBA5 /* UIColor+Categories.h in CopyFiles */,
+				5B0263741D2CBD40001FFBA5 /* UIImage+Categories.h in CopyFiles */,
+				5B0263751D2CBD40001FFBA5 /* UILabel+Categories.h in CopyFiles */,
+				5B0263761D2CBD40001FFBA5 /* UIView+Categories.h in CopyFiles */,
+				5B0263771D2CBD40001FFBA5 /* NSDate+Categories.h in CopyFiles */,
+				5B0263781D2CBD40001FFBA5 /* CCKeyboardHandler.h in CopyFiles */,
+				5B0263791D2CBD40001FFBA5 /* LocalizedButton.h in CopyFiles */,
+				5B02637A1D2CBD40001FFBA5 /* LocalizedLabel.h in CopyFiles */,
+				5B0260511D2C9E36001FFBA5 /* welfare_core_ios.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		13E3C9051DC1D5A80019256A /* CIDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CIDateUtil.h; path = Utils/CIDateUtil.h; sourceTree = "<group>"; };
+		13E3C9061DC1D5A80019256A /* CIDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CIDateUtil.m; path = Utils/CIDateUtil.m; sourceTree = "<group>"; };
+		13E3C9081DC1D5CE0019256A /* CIFormatUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CIFormatUtil.h; path = Utils/CIFormatUtil.h; sourceTree = "<group>"; };
+		13E3C9091DC1D5CE0019256A /* CIFormatUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CIFormatUtil.m; path = Utils/CIFormatUtil.m; sourceTree = "<group>"; };
+		1B4D9BD81D2CFB3B003056BE /* TrenteLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrenteLog.h; sourceTree = "<group>"; };
+		1B4D9BDD1D2CFB7C003056BE /* WFAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFAPI.h; sourceTree = "<group>"; };
+		1B4D9BDE1D2CFB7C003056BE /* WFAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFAPI.m; sourceTree = "<group>"; };
+		1B4D9BE01D2CFB8A003056BE /* WFConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFConstants.h; sourceTree = "<group>"; };
+		1B4D9BE11D2CFB8A003056BE /* WFConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFConstants.m; sourceTree = "<group>"; };
+		1B4D9BF91D2CFE44003056BE /* WFPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFPickerView.h; sourceTree = "<group>"; };
+		1B4D9BFA1D2CFE44003056BE /* WFPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFPickerView.m; sourceTree = "<group>"; };
+		1B729E631D589A1D0071859A /* WFRoundCornersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFRoundCornersView.h; sourceTree = "<group>"; };
+		1B729E641D589A1D0071859A /* WFRoundCornersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFRoundCornersView.m; sourceTree = "<group>"; };
+		1BBA1E8D1D5041BA007EA7C0 /* UIImageView+Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Categories.h"; sourceTree = "<group>"; };
+		1BBA1E8E1D5041BA007EA7C0 /* UIImageView+Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Categories.m"; sourceTree = "<group>"; };
+		5B02604D1D2C9E36001FFBA5 /* libwelfare-core-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libwelfare-core-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0260501D2C9E36001FFBA5 /* welfare_core_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = welfare_core_ios.h; sourceTree = "<group>"; };
+		5B0260521D2C9E36001FFBA5 /* welfare_core_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = welfare_core_ios.m; sourceTree = "<group>"; };
+		5B0263401D2CAE8D001FFBA5 /* NSDictionary+Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Categories.h"; sourceTree = "<group>"; };
+		5B0263411D2CAE8D001FFBA5 /* NSDictionary+Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Categories.m"; sourceTree = "<group>"; };
+		5B0263421D2CAE8D001FFBA5 /* NSString+Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Categories.h"; sourceTree = "<group>"; };
+		5B0263431D2CAE8D001FFBA5 /* NSString+Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Categories.m"; sourceTree = "<group>"; };
+		5B0263441D2CAE8D001FFBA5 /* UIColor+Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Categories.h"; sourceTree = "<group>"; };
+		5B0263451D2CAE8D001FFBA5 /* UIColor+Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Categories.m"; sourceTree = "<group>"; };
+		5B0263461D2CAE8D001FFBA5 /* UIImage+Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Categories.h"; sourceTree = "<group>"; };
+		5B0263471D2CAE8D001FFBA5 /* UIImage+Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Categories.m"; sourceTree = "<group>"; };
+		5B0263481D2CAE8D001FFBA5 /* UILabel+Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Categories.h"; sourceTree = "<group>"; };
+		5B0263491D2CAE8D001FFBA5 /* UILabel+Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Categories.m"; sourceTree = "<group>"; };
+		5B02634A1D2CAE8D001FFBA5 /* UIView+Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Categories.h"; sourceTree = "<group>"; };
+		5B02634B1D2CAE8D001FFBA5 /* UIView+Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Categories.m"; sourceTree = "<group>"; };
+		5B02634D1D2CAE8D001FFBA5 /* CCKeyboardHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCKeyboardHandler.h; sourceTree = "<group>"; };
+		5B02634E1D2CAE8D001FFBA5 /* CCKeyboardHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCKeyboardHandler.m; sourceTree = "<group>"; };
+		5B0263501D2CAE8D001FFBA5 /* LocalizedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizedButton.h; sourceTree = "<group>"; };
+		5B0263511D2CAE8D001FFBA5 /* LocalizedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizedButton.m; sourceTree = "<group>"; };
+		5B0263521D2CAE8D001FFBA5 /* LocalizedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizedLabel.h; sourceTree = "<group>"; };
+		5B0263531D2CAE8D001FFBA5 /* LocalizedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizedLabel.m; sourceTree = "<group>"; };
+		5B0263601D2CB3EE001FFBA5 /* NSDate+Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Categories.h"; sourceTree = "<group>"; };
+		5B0263611D2CB3EE001FFBA5 /* NSDate+Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Categories.m"; sourceTree = "<group>"; };
+		5B44E5E81D4202DE009524FA /* WFSocketPackageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFSocketPackageModel.h; sourceTree = "<group>"; };
+		5B44E5E91D4202DE009524FA /* WFSocketPackageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFSocketPackageModel.m; sourceTree = "<group>"; };
+		5B44E5F21D420B92009524FA /* NSObject+ConvertToJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ConvertToJson.h"; sourceTree = "<group>"; };
+		5B44E5F31D420B92009524FA /* NSObject+ConvertToJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ConvertToJson.m"; sourceTree = "<group>"; };
+		5B52692B1DDAA1290020C3A0 /* UIButton+Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Categories.h"; sourceTree = "<group>"; };
+		5B52692C1DDAA1290020C3A0 /* UIButton+Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Categories.m"; sourceTree = "<group>"; };
+		5B7AB14C1D3CCBCD00D7E8D2 /* WFAttachmentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFAttachmentModel.h; sourceTree = "<group>"; };
+		5B7AB14D1D3CCBCD00D7E8D2 /* WFAttachmentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFAttachmentModel.m; sourceTree = "<group>"; };
+		5B85C8E01DDAB06100F4D952 /* Comment-snippet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Comment-snippet.h"; sourceTree = "<group>"; };
+		5B85C8E11DDAB0C600F4D952 /* UICollectionView-snippet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView-snippet.h"; sourceTree = "<group>"; };
+		5B85C8E21DDAB12000F4D952 /* UITableView-snippet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView-snippet.h"; sourceTree = "<group>"; };
+		5B95FD6F1D33862200C3EE07 /* WFTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFTextField.h; sourceTree = "<group>"; };
+		5B95FD701D33862200C3EE07 /* WFTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFTextField.m; sourceTree = "<group>"; };
+		5B95FD7A1D33A50F00C3EE07 /* WFCompanyUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFCompanyUserModel.h; sourceTree = "<group>"; };
+		5B95FD7B1D33A50F00C3EE07 /* WFCompanyUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFCompanyUserModel.m; sourceTree = "<group>"; };
+		5BA8262B1DE8165A002AF8B3 /* WFObjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFObjectModel.h; sourceTree = "<group>"; };
+		5BA8262C1DE8165A002AF8B3 /* WFObjectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFObjectModel.m; sourceTree = "<group>"; };
+		5BA8263B1DE83452002AF8B3 /* WFDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFDatePickerView.h; sourceTree = "<group>"; };
+		5BA8263C1DE83452002AF8B3 /* WFDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFDatePickerView.m; sourceTree = "<group>"; };
+		5BC02BA11DE42FFA00E7DCFD /* UIFont+Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Categories.h"; sourceTree = "<group>"; };
+		5BC02BA21DE42FFA00E7DCFD /* UIFont+Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Categories.m"; sourceTree = "<group>"; };
+		5BC1D0141D34854A00A96588 /* WFErrorLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFErrorLabel.h; sourceTree = "<group>"; };
+		5BC1D0151D34854A00A96588 /* WFErrorLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFErrorLabel.m; sourceTree = "<group>"; };
+		5BC1D0321D34D90F00A96588 /* WFCompanyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFCompanyModel.h; sourceTree = "<group>"; };
+		5BC1D0331D34D90F00A96588 /* WFCompanyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFCompanyModel.m; sourceTree = "<group>"; };
+		5BC1D0341D34D90F00A96588 /* WFCompanyDeptModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFCompanyDeptModel.h; sourceTree = "<group>"; };
+		5BC1D0351D34D90F00A96588 /* WFCompanyDeptModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFCompanyDeptModel.m; sourceTree = "<group>"; };
+		5BFC33471D2DEC630072AE54 /* WFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFLabel.h; sourceTree = "<group>"; };
+		5BFC33481D2DEC630072AE54 /* WFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFLabel.m; sourceTree = "<group>"; };
+		5BFC334A1D2DEC750072AE54 /* WFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFButton.h; sourceTree = "<group>"; };
+		5BFC334B1D2DEC750072AE54 /* WFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFButton.m; sourceTree = "<group>"; };
+		5BFC33661D2E49FD0072AE54 /* WFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFViewController.h; sourceTree = "<group>"; };
+		5BFC33671D2E49FD0072AE54 /* WFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFViewController.m; sourceTree = "<group>"; };
+		5BFC336B1D2E557C0072AE54 /* NSMutableDictionary+Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Categories.h"; sourceTree = "<group>"; };
+		5BFC336C1D2E557C0072AE54 /* NSMutableDictionary+Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Categories.m"; sourceTree = "<group>"; };
+		5BFC33731D2E61C70072AE54 /* WFUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFUserDefaults.h; sourceTree = "<group>"; };
+		5BFC33741D2E61C70072AE54 /* WFUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFUserDefaults.m; sourceTree = "<group>"; };
+		5BFC33771D2E68650072AE54 /* WFTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFTextView.h; sourceTree = "<group>"; };
+		5BFC33781D2E68650072AE54 /* WFTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFTextView.m; sourceTree = "<group>"; };
+		F28F0F5C1DE8372A00E0C4AD /* NSNumber+Catergories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Catergories.h"; sourceTree = "<group>"; };
+		F28F0F5D1DE8372A00E0C4AD /* NSNumber+Catergories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Catergories.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B02604A1D2C9E36001FFBA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13E3C9041DC1D4CC0019256A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				13E3C9051DC1D5A80019256A /* CIDateUtil.h */,
+				13E3C9061DC1D5A80019256A /* CIDateUtil.m */,
+				13E3C9081DC1D5CE0019256A /* CIFormatUtil.h */,
+				13E3C9091DC1D5CE0019256A /* CIFormatUtil.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		1B2804DB1D2CC4E5006A1097 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				1B729E621D589A080071859A /* UIViewCustom */,
+				5B95FD6E1D33861200C3EE07 /* TextField */,
+				5BFC336E1D2E59190072AE54 /* TextView */,
+				5BFC33461D2DEBBB0072AE54 /* Label */,
+				5BFC33451D2DEBAC0072AE54 /* Button */,
+				1B4D9BD91D2CFB49003056BE /* PickerView */,
+				1B4D9BD81D2CFB3B003056BE /* TrenteLog.h */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		1B2804E31D2CD9EB006A1097 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				5BFC33731D2E61C70072AE54 /* WFUserDefaults.h */,
+				5BFC33741D2E61C70072AE54 /* WFUserDefaults.m */,
+				1B4D9BDD1D2CFB7C003056BE /* WFAPI.h */,
+				1B4D9BDE1D2CFB7C003056BE /* WFAPI.m */,
+				1B4D9BE01D2CFB8A003056BE /* WFConstants.h */,
+				1B4D9BE11D2CFB8A003056BE /* WFConstants.m */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		1B4D9BD91D2CFB49003056BE /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				5BA8263B1DE83452002AF8B3 /* WFDatePickerView.h */,
+				5BA8263C1DE83452002AF8B3 /* WFDatePickerView.m */,
+				1B4D9BF91D2CFE44003056BE /* WFPickerView.h */,
+				1B4D9BFA1D2CFE44003056BE /* WFPickerView.m */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		1B729E621D589A080071859A /* UIViewCustom */ = {
+			isa = PBXGroup;
+			children = (
+				1B729E631D589A1D0071859A /* WFRoundCornersView.h */,
+				1B729E641D589A1D0071859A /* WFRoundCornersView.m */,
+			);
+			name = UIViewCustom;
+			sourceTree = "<group>";
+		};
+		5B0260441D2C9E36001FFBA5 = {
+			isa = PBXGroup;
+			children = (
+				5B02604F1D2C9E36001FFBA5 /* welfare-core-ios */,
+				5B02604E1D2C9E36001FFBA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B02604E1D2C9E36001FFBA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B02604D1D2C9E36001FFBA5 /* libwelfare-core-ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B02604F1D2C9E36001FFBA5 /* welfare-core-ios */ = {
+			isa = PBXGroup;
+			children = (
+				5B85C8DF1DDAB00200F4D952 /* Snippets */,
+				13E3C9041DC1D4CC0019256A /* Utils */,
+				5B95FD791D33A50500C3EE07 /* Models */,
+				5BFC33651D2E49C10072AE54 /* Controllers */,
+				1B2804E31D2CD9EB006A1097 /* Define */,
+				1B2804DB1D2CC4E5006A1097 /* Global */,
+				5B0263391D2CAE8D001FFBA5 /* Categories */,
+				5B02634C1D2CAE8D001FFBA5 /* KeyboardHandler */,
+				5B02634F1D2CAE8D001FFBA5 /* Localization */,
+				5B0260501D2C9E36001FFBA5 /* welfare_core_ios.h */,
+				5B0260521D2C9E36001FFBA5 /* welfare_core_ios.m */,
+			);
+			path = "welfare-core-ios";
+			sourceTree = "<group>";
+		};
+		5B0263391D2CAE8D001FFBA5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F28F0F5C1DE8372A00E0C4AD /* NSNumber+Catergories.h */,
+				F28F0F5D1DE8372A00E0C4AD /* NSNumber+Catergories.m */,
+				5B0263401D2CAE8D001FFBA5 /* NSDictionary+Categories.h */,
+				5B0263411D2CAE8D001FFBA5 /* NSDictionary+Categories.m */,
+				5B0263421D2CAE8D001FFBA5 /* NSString+Categories.h */,
+				5B0263431D2CAE8D001FFBA5 /* NSString+Categories.m */,
+				5B0263441D2CAE8D001FFBA5 /* UIColor+Categories.h */,
+				5B0263451D2CAE8D001FFBA5 /* UIColor+Categories.m */,
+				5B0263461D2CAE8D001FFBA5 /* UIImage+Categories.h */,
+				5B0263471D2CAE8D001FFBA5 /* UIImage+Categories.m */,
+				5B0263481D2CAE8D001FFBA5 /* UILabel+Categories.h */,
+				5B0263491D2CAE8D001FFBA5 /* UILabel+Categories.m */,
+				5B02634A1D2CAE8D001FFBA5 /* UIView+Categories.h */,
+				5B02634B1D2CAE8D001FFBA5 /* UIView+Categories.m */,
+				5B0263601D2CB3EE001FFBA5 /* NSDate+Categories.h */,
+				5B0263611D2CB3EE001FFBA5 /* NSDate+Categories.m */,
+				5BFC336B1D2E557C0072AE54 /* NSMutableDictionary+Categories.h */,
+				5BFC336C1D2E557C0072AE54 /* NSMutableDictionary+Categories.m */,
+				5B44E5F21D420B92009524FA /* NSObject+ConvertToJson.h */,
+				5B44E5F31D420B92009524FA /* NSObject+ConvertToJson.m */,
+				1BBA1E8D1D5041BA007EA7C0 /* UIImageView+Categories.h */,
+				1BBA1E8E1D5041BA007EA7C0 /* UIImageView+Categories.m */,
+				5B52692B1DDAA1290020C3A0 /* UIButton+Categories.h */,
+				5B52692C1DDAA1290020C3A0 /* UIButton+Categories.m */,
+				5BC02BA11DE42FFA00E7DCFD /* UIFont+Categories.h */,
+				5BC02BA21DE42FFA00E7DCFD /* UIFont+Categories.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5B02634C1D2CAE8D001FFBA5 /* KeyboardHandler */ = {
+			isa = PBXGroup;
+			children = (
+				5B02634D1D2CAE8D001FFBA5 /* CCKeyboardHandler.h */,
+				5B02634E1D2CAE8D001FFBA5 /* CCKeyboardHandler.m */,
+			);
+			path = KeyboardHandler;
+			sourceTree = "<group>";
+		};
+		5B02634F1D2CAE8D001FFBA5 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				5B0263501D2CAE8D001FFBA5 /* LocalizedButton.h */,
+				5B0263511D2CAE8D001FFBA5 /* LocalizedButton.m */,
+				5B0263521D2CAE8D001FFBA5 /* LocalizedLabel.h */,
+				5B0263531D2CAE8D001FFBA5 /* LocalizedLabel.m */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		5B85C8DF1DDAB00200F4D952 /* Snippets */ = {
+			isa = PBXGroup;
+			children = (
+				5B85C8E01DDAB06100F4D952 /* Comment-snippet.h */,
+				5B85C8E11DDAB0C600F4D952 /* UICollectionView-snippet.h */,
+				5B85C8E21DDAB12000F4D952 /* UITableView-snippet.h */,
+			);
+			path = Snippets;
+			sourceTree = "<group>";
+		};
+		5B95FD6E1D33861200C3EE07 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				5B95FD6F1D33862200C3EE07 /* WFTextField.h */,
+				5B95FD701D33862200C3EE07 /* WFTextField.m */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		5B95FD791D33A50500C3EE07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5BC1D0321D34D90F00A96588 /* WFCompanyModel.h */,
+				5BC1D0331D34D90F00A96588 /* WFCompanyModel.m */,
+				5BC1D0341D34D90F00A96588 /* WFCompanyDeptModel.h */,
+				5BC1D0351D34D90F00A96588 /* WFCompanyDeptModel.m */,
+				5B95FD7A1D33A50F00C3EE07 /* WFCompanyUserModel.h */,
+				5B95FD7B1D33A50F00C3EE07 /* WFCompanyUserModel.m */,
+				5B7AB14C1D3CCBCD00D7E8D2 /* WFAttachmentModel.h */,
+				5B7AB14D1D3CCBCD00D7E8D2 /* WFAttachmentModel.m */,
+				5B44E5E81D4202DE009524FA /* WFSocketPackageModel.h */,
+				5B44E5E91D4202DE009524FA /* WFSocketPackageModel.m */,
+				5BA8262B1DE8165A002AF8B3 /* WFObjectModel.h */,
+				5BA8262C1DE8165A002AF8B3 /* WFObjectModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5BFC33451D2DEBAC0072AE54 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				5BFC334A1D2DEC750072AE54 /* WFButton.h */,
+				5BFC334B1D2DEC750072AE54 /* WFButton.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		5BFC33461D2DEBBB0072AE54 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				5BFC33471D2DEC630072AE54 /* WFLabel.h */,
+				5BFC33481D2DEC630072AE54 /* WFLabel.m */,
+				5BC1D0141D34854A00A96588 /* WFErrorLabel.h */,
+				5BC1D0151D34854A00A96588 /* WFErrorLabel.m */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		5BFC33651D2E49C10072AE54 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BFC33661D2E49FD0072AE54 /* WFViewController.h */,
+				5BFC33671D2E49FD0072AE54 /* WFViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5BFC336E1D2E59190072AE54 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				5BFC33771D2E68650072AE54 /* WFTextView.h */,
+				5BFC33781D2E68650072AE54 /* WFTextView.m */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B02604C1D2C9E36001FFBA5 /* welfare-core-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0260561D2C9E36001FFBA5 /* Build configuration list for PBXNativeTarget "welfare-core-ios" */;
+			buildPhases = (
+				5B0260491D2C9E36001FFBA5 /* Sources */,
+				5B02604A1D2C9E36001FFBA5 /* Frameworks */,
+				5B02604B1D2C9E36001FFBA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "welfare-core-ios";
+			productName = "welfare-core-ios";
+			productReference = 5B02604D1D2C9E36001FFBA5 /* libwelfare-core-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B0260451D2C9E36001FFBA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = trentevietnam;
+				TargetAttributes = {
+					5B02604C1D2C9E36001FFBA5 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B0260481D2C9E36001FFBA5 /* Build configuration list for PBXProject "welfare-core-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B0260441D2C9E36001FFBA5;
+			productRefGroup = 5B02604E1D2C9E36001FFBA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B02604C1D2C9E36001FFBA5 /* welfare-core-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B0260491D2C9E36001FFBA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B95FD7C1D33A50F00C3EE07 /* WFCompanyUserModel.m in Sources */,
+				5B0263591D2CAE8D001FFBA5 /* UIColor+Categories.m in Sources */,
+				5B44E5EA1D4202DE009524FA /* WFSocketPackageModel.m in Sources */,
+				1B4D9BFB1D2CFE44003056BE /* WFPickerView.m in Sources */,
+				5B44E5F41D420B92009524FA /* NSObject+ConvertToJson.m in Sources */,
+				5B02635A1D2CAE8D001FFBA5 /* UIImage+Categories.m in Sources */,
+				5B02635C1D2CAE8D001FFBA5 /* UIView+Categories.m in Sources */,
+				5B02635F1D2CAE8D001FFBA5 /* LocalizedLabel.m in Sources */,
+				5BC1D0161D34854A00A96588 /* WFErrorLabel.m in Sources */,
+				5BA8263D1DE83452002AF8B3 /* WFDatePickerView.m in Sources */,
+				5B02635B1D2CAE8D001FFBA5 /* UILabel+Categories.m in Sources */,
+				13E3C9071DC1D5A80019256A /* CIDateUtil.m in Sources */,
+				1BBA1E8F1D5041BA007EA7C0 /* UIImageView+Categories.m in Sources */,
+				1B4D9BDF1D2CFB7C003056BE /* WFAPI.m in Sources */,
+				5BC1D0371D34D90F00A96588 /* WFCompanyDeptModel.m in Sources */,
+				5BA8262D1DE8165A002AF8B3 /* WFObjectModel.m in Sources */,
+				5BFC33681D2E49FD0072AE54 /* WFViewController.m in Sources */,
+				5BFC33791D2E68650072AE54 /* WFTextView.m in Sources */,
+				5B0260531D2C9E36001FFBA5 /* welfare_core_ios.m in Sources */,
+				5B02635D1D2CAE8D001FFBA5 /* CCKeyboardHandler.m in Sources */,
+				1B4D9BE21D2CFB8A003056BE /* WFConstants.m in Sources */,
+				5BFC33491D2DEC630072AE54 /* WFLabel.m in Sources */,
+				5B0263571D2CAE8D001FFBA5 /* NSDictionary+Categories.m in Sources */,
+				5B7AB14E1D3CCBCD00D7E8D2 /* WFAttachmentModel.m in Sources */,
+				5BC02BA31DE42FFA00E7DCFD /* UIFont+Categories.m in Sources */,
+				5B0263581D2CAE8D001FFBA5 /* NSString+Categories.m in Sources */,
+				5BFC33751D2E61C70072AE54 /* WFUserDefaults.m in Sources */,
+				5B0263621D2CB3EE001FFBA5 /* NSDate+Categories.m in Sources */,
+				5BFC334C1D2DEC750072AE54 /* WFButton.m in Sources */,
+				5B52692D1DDAA1290020C3A0 /* UIButton+Categories.m in Sources */,
+				5B95FD711D33862200C3EE07 /* WFTextField.m in Sources */,
+				F28F0F5E1DE8372A00E0C4AD /* NSNumber+Catergories.m in Sources */,
+				1B729E651D589A1D0071859A /* WFRoundCornersView.m in Sources */,
+				13E3C90A1DC1D5CE0019256A /* CIFormatUtil.m in Sources */,
+				5BFC336D1D2E557C0072AE54 /* NSMutableDictionary+Categories.m in Sources */,
+				5BC1D0361D34D90F00A96588 /* WFCompanyModel.m in Sources */,
+				5B02635E1D2CAE8D001FFBA5 /* LocalizedButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5B0260541D2C9E36001FFBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B0260551D2C9E36001FFBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B0260571D2C9E36001FFBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5B0260581D2C9E36001FFBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B0260481D2C9E36001FFBA5 /* Build configuration list for PBXProject "welfare-core-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0260541D2C9E36001FFBA5 /* Debug */,
+				5B0260551D2C9E36001FFBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0260561D2C9E36001FFBA5 /* Build configuration list for PBXNativeTarget "welfare-core-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0260571D2C9E36001FFBA5 /* Debug */,
+				5B0260581D2C9E36001FFBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B0260451D2C9E36001FFBA5 /* Project object */;
+}

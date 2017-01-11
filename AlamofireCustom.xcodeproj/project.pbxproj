@@ -15,10 +15,19 @@
 		F24538621E248F430029FEAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24538601E248F430029FEAD /* LaunchScreen.storyboard */; };
 		F245386A1E2495640029FEAD /* SignInViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24538691E2495640029FEAD /* SignInViewControllerViewController.swift */; };
 		F245386D1E2496C60029FEAD /* NSDictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F245386C1E2496C60029FEAD /* NSDictionary+Extension.swift */; };
-		F24538751E2499380029FEAD /* WFUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = F24538741E2499380029FEAD /* WFUserDefaults.m */; };
 		F24538791E24B0DF0029FEAD /* QuyAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24538781E24B0DF0029FEAD /* QuyAlamofire.swift */; };
-		F245387C1E24BE900029FEAD /* WFAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F245387B1E24BE900029FEAD /* WFAPI.m */; };
+		F2F20E431E2605E600280BA8 /* libwelfare-core-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F20E421E2605DA00280BA8 /* libwelfare-core-ios.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2F20E411E2605DA00280BA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2F20E3D1E2605D900280BA8 /* welfare-core-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5B02604D1D2C9E36001FFBA5;
+			remoteInfo = "welfare-core-ios";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0D57B3D4B537C29C5B8F11D2 /* Pods_AlamofireCustom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireCustom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,12 +42,9 @@
 		F24538631E248F430029FEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F24538691E2495640029FEAD /* SignInViewControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewControllerViewController.swift; sourceTree = "<group>"; };
 		F245386C1E2496C60029FEAD /* NSDictionary+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+Extension.swift"; sourceTree = "<group>"; };
-		F24538731E2499380029FEAD /* WFUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFUserDefaults.h; sourceTree = "<group>"; };
-		F24538741E2499380029FEAD /* WFUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFUserDefaults.m; sourceTree = "<group>"; };
 		F24538761E24994B0029FEAD /* AlamofireCustom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlamofireCustom-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		F24538781E24B0DF0029FEAD /* QuyAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuyAlamofire.swift; sourceTree = "<group>"; };
-		F245387A1E24BE900029FEAD /* WFAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFAPI.h; sourceTree = "<group>"; };
-		F245387B1E24BE900029FEAD /* WFAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFAPI.m; sourceTree = "<group>"; };
+		F2F20E3D1E2605D900280BA8 /* welfare-core-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "welfare-core-ios.xcodeproj"; path = "welfare-core-ios/welfare-core-ios.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F20E431E2605E600280BA8 /* libwelfare-core-ios.a in Frameworks */,
 				09098BF4DCE71EA7CEDD031D /* Pods_AlamofireCustom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,6 +80,7 @@
 		F245384B1E248F430029FEAD = {
 			isa = PBXGroup;
 			children = (
+				F2F20E3D1E2605D900280BA8 /* welfare-core-ios.xcodeproj */,
 				F24538561E248F430029FEAD /* AlamofireCustom */,
 				F24538551E248F430029FEAD /* Products */,
 				BA0D8F6B40468A015791CA62 /* Pods */,
@@ -108,8 +116,6 @@
 		F245386B1E24968F0029FEAD /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				F24538731E2499380029FEAD /* WFUserDefaults.h */,
-				F24538741E2499380029FEAD /* WFUserDefaults.m */,
 				F245386C1E2496C60029FEAD /* NSDictionary+Extension.swift */,
 			);
 			name = Extension;
@@ -118,11 +124,17 @@
 		F24538771E24B0A30029FEAD /* Alamofire+custom */ = {
 			isa = PBXGroup;
 			children = (
-				F245387A1E24BE900029FEAD /* WFAPI.h */,
-				F245387B1E24BE900029FEAD /* WFAPI.m */,
 				F24538781E24B0DF0029FEAD /* QuyAlamofire.swift */,
 			);
 			name = "Alamofire+custom";
+			sourceTree = "<group>";
+		};
+		F2F20E3E1E2605D900280BA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2F20E421E2605DA00280BA8 /* libwelfare-core-ios.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,12 +188,28 @@
 			mainGroup = F245384B1E248F430029FEAD;
 			productRefGroup = F24538551E248F430029FEAD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F2F20E3E1E2605D900280BA8 /* Products */;
+					ProjectRef = F2F20E3D1E2605D900280BA8 /* welfare-core-ios.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F24538531E248F430029FEAD /* AlamofireCustom */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F2F20E421E2605DA00280BA8 /* libwelfare-core-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libwelfare-core-ios.a";
+			remoteRef = F2F20E411E2605DA00280BA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F24538521E248F430029FEAD /* Resources */ = {
@@ -250,8 +278,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F245385A1E248F430029FEAD /* ViewController.swift in Sources */,
-				F245387C1E24BE900029FEAD /* WFAPI.m in Sources */,
-				F24538751E2499380029FEAD /* WFUserDefaults.m in Sources */,
 				F24538581E248F430029FEAD /* AppDelegate.swift in Sources */,
 				F245386D1E2496C60029FEAD /* NSDictionary+Extension.swift in Sources */,
 				F24538791E24B0DF0029FEAD /* QuyAlamofire.swift in Sources */,
@@ -384,7 +410,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quy.com.AlamofireCustom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/quy/Desktop/AlamofireCustom/AlamofireCustom-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/quy/Desktop/Alamofire-custom/AlamofireCustom-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -400,7 +426,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quy.com.AlamofireCustom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/quy/Desktop/AlamofireCustom/AlamofireCustom-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/quy/Desktop/Alamofire-custom/AlamofireCustom-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
