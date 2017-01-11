@@ -17,6 +17,11 @@
 		F245386D1E2496C60029FEAD /* NSDictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F245386C1E2496C60029FEAD /* NSDictionary+Extension.swift */; };
 		F24538791E24B0DF0029FEAD /* QuyAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24538781E24B0DF0029FEAD /* QuyAlamofire.swift */; };
 		F2F20E431E2605E600280BA8 /* libwelfare-core-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F20E421E2605DA00280BA8 /* libwelfare-core-ios.a */; };
+		F2F20E451E26091400280BA8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F20E441E26091400280BA8 /* DetailViewController.swift */; };
+		F2F20E481E26094A00280BA8 /* AlamofireTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F20E461E26094A00280BA8 /* AlamofireTableViewCell.swift */; };
+		F2F20E491E26094A00280BA8 /* AlamofireTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F20E471E26094A00280BA8 /* AlamofireTableViewCell.xib */; };
+		F2F20E5D1E260D5E00280BA8 /* AlaLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F20E5C1E260D5E00280BA8 /* AlaLabel.swift */; };
+		F2F20E871E2637C600280BA8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2F20E891E2637C600280BA8 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 		F24538541E248F430029FEAD /* AlamofireCustom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireCustom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24538571E248F430029FEAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F24538591E248F430029FEAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F245385C1E248F430029FEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F245385E1E248F430029FEAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F24538611E248F430029FEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F24538631E248F430029FEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +49,13 @@
 		F24538761E24994B0029FEAD /* AlamofireCustom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlamofireCustom-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		F24538781E24B0DF0029FEAD /* QuyAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuyAlamofire.swift; sourceTree = "<group>"; };
 		F2F20E3D1E2605D900280BA8 /* welfare-core-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "welfare-core-ios.xcodeproj"; path = "welfare-core-ios/welfare-core-ios.xcodeproj"; sourceTree = "<group>"; };
+		F2F20E441E26091400280BA8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F2F20E461E26094A00280BA8 /* AlamofireTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireTableViewCell.swift; sourceTree = "<group>"; };
+		F2F20E471E26094A00280BA8 /* AlamofireTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlamofireTableViewCell.xib; sourceTree = "<group>"; };
+		F2F20E5C1E260D5E00280BA8 /* AlaLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlaLabel.swift; sourceTree = "<group>"; };
+		F2F20E601E260FF800280BA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2F20E881E2637C600280BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2F20E8A1E2637CF00280BA8 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +110,7 @@
 		F24538561E248F430029FEAD /* AlamofireCustom */ = {
 			isa = PBXGroup;
 			children = (
+				F2F20E5B1E260D3600280BA8 /* Global */,
 				F24538771E24B0A30029FEAD /* Alamofire+custom */,
 				F24538761E24994B0029FEAD /* AlamofireCustom-Bridging-Header.h */,
 				F245386B1E24968F0029FEAD /* Extension */,
@@ -109,6 +121,10 @@
 				F24538601E248F430029FEAD /* LaunchScreen.storyboard */,
 				F24538631E248F430029FEAD /* Info.plist */,
 				F24538691E2495640029FEAD /* SignInViewControllerViewController.swift */,
+				F2F20E441E26091400280BA8 /* DetailViewController.swift */,
+				F2F20E461E26094A00280BA8 /* AlamofireTableViewCell.swift */,
+				F2F20E471E26094A00280BA8 /* AlamofireTableViewCell.xib */,
+				F2F20E891E2637C600280BA8 /* Localizable.strings */,
 			);
 			path = AlamofireCustom;
 			sourceTree = "<group>";
@@ -135,6 +151,14 @@
 				F2F20E421E2605DA00280BA8 /* libwelfare-core-ios.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F2F20E5B1E260D3600280BA8 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				F2F20E5C1E260D5E00280BA8 /* AlaLabel.swift */,
+			);
+			name = Global;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +208,7 @@
 			knownRegions = (
 				en,
 				Base,
+				vi,
 			);
 			mainGroup = F245384B1E248F430029FEAD;
 			productRefGroup = F24538551E248F430029FEAD /* Products */;
@@ -216,8 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F20E871E2637C600280BA8 /* Localizable.strings in Resources */,
 				F24538621E248F430029FEAD /* LaunchScreen.storyboard in Resources */,
 				F245385F1E248F430029FEAD /* Assets.xcassets in Resources */,
+				F2F20E491E26094A00280BA8 /* AlamofireTableViewCell.xib in Resources */,
 				F245385D1E248F430029FEAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,8 +307,11 @@
 				F245385A1E248F430029FEAD /* ViewController.swift in Sources */,
 				F24538581E248F430029FEAD /* AppDelegate.swift in Sources */,
 				F245386D1E2496C60029FEAD /* NSDictionary+Extension.swift in Sources */,
+				F2F20E481E26094A00280BA8 /* AlamofireTableViewCell.swift in Sources */,
+				F2F20E451E26091400280BA8 /* DetailViewController.swift in Sources */,
 				F24538791E24B0DF0029FEAD /* QuyAlamofire.swift in Sources */,
 				F245386A1E2495640029FEAD /* SignInViewControllerViewController.swift in Sources */,
+				F2F20E5D1E260D5E00280BA8 /* AlaLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +321,7 @@
 		F245385B1E248F430029FEAD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F245385C1E248F430029FEAD /* Base */,
+				F2F20E601E260FF800280BA8 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -304,6 +334,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		F2F20E891E2637C600280BA8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2F20E881E2637C600280BA8 /* Base */,
+				F2F20E8A1E2637CF00280BA8 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -311,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -361,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";

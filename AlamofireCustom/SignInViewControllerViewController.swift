@@ -12,7 +12,7 @@ class SignInViewControllerViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-         let params = NSMutableDictionary.initParam()
+        
           // Do any additional setup after loading the view.
               
     }
@@ -34,9 +34,10 @@ class SignInViewControllerViewController: UIViewController {
         let params = NSMutableDictionary.initParam()
         params.setObject(self.userNameTextField.text!, forKey: "account" as NSCopying)
          params.setObject(self.passworkdtextField.text!, forKey: "password" as NSCopying)
+        
         QuyAlamofire.requestPost(url: WF_URL_SIGN_IN, params: params.toDictionary()) { (response) in
             if(response.object(forKey: "status") as! String == "OK"){
-                print("OK")
+                        self.performSegue(withIdentifier: "pushToDetail", sender: self)
                 }
             }
          print("synconize")
